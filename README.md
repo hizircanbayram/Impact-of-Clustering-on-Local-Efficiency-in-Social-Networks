@@ -477,6 +477,9 @@ Simulated graphs have lower clustering coefficient and local efficiency compared
 
 In conclusion, the existence of many clusters in a network affects local information flow positively, since within these clusters nodes are densely connected and the shortest path lengths are small. Our results show that even though the number of nodes can be high in social networks, the local efficiency is also high due to the existence of many small clusters.
 
+### Presentation Link 
+[![Presentation](https://img.youtube.com/vi/R_EfbUrUHRk/0.jpg)](https://youtu.be/R_EfbUrUHRk)
+
 ### References
 
 1. Stanley, Matthew L., et al. "Changes in brain network efficiency and working memory performance in aging." PLoS One 10.4 (2015): e0123950.
