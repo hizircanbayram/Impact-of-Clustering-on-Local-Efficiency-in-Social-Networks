@@ -7,11 +7,11 @@ import matplotlib.pyplot as plt
 
 ## Group ID: 1
 
-- 504191564 - Harun Uz
-- 504191570 - Zeynep Betül Arslanbenzer
-- 504201585 - Hızır Can Bayram
-- 504192517 - Eda Çapa Kızıltaş
-- 504191529 - Murat Özkök
+- Harun Uz
+- Zeynep Betül Arslanbenzer
+- Hızır Can Bayram
+- Eda Çapa Kızıltaş
+- Murat Özkök
 
 ## Impact of Clustering on Local Efficiency in Social Networks
 
@@ -104,13 +104,14 @@ plt.show()
 
 
     
-![png](group_1_files/group_1_11_0.png)
+![group_1_11_0](https://user-images.githubusercontent.com/23126077/156059672-197ce660-c066-40f6-9a0a-b3851c6ad332.png)
     
 
 
 Adjacency matrix views at different scales
 
-<img src="pngs/g1_g2_original.gif" width="1080" align="center">
+![g1_g2_original](https://user-images.githubusercontent.com/23126077/156058822-2d5b107e-767f-4db9-8355-d53e37f82379.gif)
+
 
 ## 3.
 
@@ -133,7 +134,8 @@ plt.show()
 
 
     
-![png](group_1_files/group_1_15_0.png)
+![group_1_15_0](https://user-images.githubusercontent.com/23126077/156059763-fd722715-d782-43ed-aeb4-479d90848b17.png)
+
     
 
 
@@ -156,7 +158,8 @@ plt.show()
   
   where $k_i$ is the degree of node i and $t_i=\sum_{j,k}A_{ij}A_{jk}A_{ki}$ is the number of closed triangles around node i. This is ratio of connected pairwise neighbors to potential (maximum) number of i’s neighbors pairs. In other words, the fraction between triangles around a node to degree of the node is named as the clustering coefficient.
   
-  <img src="pngs/clusteringCoeff2.png" alt="Drawing" style="width: 100px;"/>
+![ClusteringCoeff2](https://user-images.githubusercontent.com/23126077/156059811-76218e6e-e6b1-408a-ba88-ed454921d1c4.png)
+
   
   It is ratio of a node's neighbors that are also immediate neighbors of each other (triangular motif frequency around node). [2]
   
@@ -167,7 +170,7 @@ plt.show()
 (or open triads) in a system
 
   
-   <img src="pngs/Illustration-of-Structural-Hole-Concept.png" alt="Drawing" width=500px/> 
+![Illustration-of-Structural-Hole-Concept](https://user-images.githubusercontent.com/23126077/156059914-6a3d9b5d-be74-499a-bc16-23466d753c97.png)
    
    Figure from [3].
   
@@ -176,7 +179,8 @@ plt.show()
    
   A clique would come with local clustering coefficient equal to 1
   
-  <img src="pngs/Clustering-Coefficient-A-Node-V.png" alt="Drawing" style="width: 100px;"/>
+![Clustering-Coefficient-A-Node-V](https://user-images.githubusercontent.com/23126077/156059962-62cc2be5-2f61-4832-b01e-5f5e726c1394.png)
+
   
   Figure from [5].
   
@@ -238,11 +242,13 @@ plt.show()
 
 
     
-![png](group_1_files/group_1_22_0.png)
+![group_1_22_0](https://user-images.githubusercontent.com/23126077/156060021-410a9116-1f4f-4707-bc6a-e3e9f7149d85.png)
+
     
 
 
-  <img src="pngs/clusteringCoeffvsRandomness.png" alt="Drawing" width='640px'/>
+![clusteringCoeffvsRandomness](https://user-images.githubusercontent.com/23126077/156060055-d84ca91c-b8b3-448c-8ed9-26dcb2a6ed81.png)
+
   Figure from [6].
   
     As randomness increases, the clustering coefficient decreases logaritmically (short path length is a characteristic of random networks, whereas high clustering is a property of lattice networks). [4]
@@ -257,7 +263,8 @@ $N_{G_i} = k_i = $ degree of node *i*.
   
   An example for a simple social graph can be seen below.
   
-  <img src="pngs/gkarate.png" alt="Drawing" width=700px/>
+![gkarate](https://user-images.githubusercontent.com/23126077/156060095-00aa8504-0777-44b1-82f6-98f42e2813e6.png)
+
   
   For the node 4,
 
@@ -356,7 +363,9 @@ plt.show()
 
 
     
-![png](group_1_files/group_1_36_0.png)
+!
+![group_1_36_0](https://user-images.githubusercontent.com/23126077/156060155-2d8f46d5-cd00-4941-a76f-94685da41c93.png)
+
     
 
 
@@ -452,7 +461,8 @@ fig.savefig("./r_space.png", dpi=300, bbox_inches='tight', facecolor='white')
 
 
     
-![png](group_1_files/group_1_41_0.png)
+![group_1_41_0](https://user-images.githubusercontent.com/23126077/156060186-c6a64a0f-0048-43f2-852f-365300859c40.png)
+
     
 
 
