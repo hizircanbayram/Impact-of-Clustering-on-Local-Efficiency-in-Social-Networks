@@ -146,11 +146,11 @@ plt.show()
 ##### Local Efficiency: 
 <img src="https://render.githubusercontent.com/render/math?math=E_{loc(i)} = \dfrac{1}{N_{G_i}(N_{G_i} - 1)}\sum_{j,h \in G{i}}\dfrac{1}{l_{jh}}">
 
+
    
-   
-   where $G_{i}$ is the subgraph consisting immediate neighbors of $i^{th}$ node, except $i^{th}$ itself. j & h are all possible pairwise node combinations between subgraph nodes. $N_{G_i}$ is the node number of subgraph and $l_{jh}$ is the shortest path distance between nodes i & j.
+   where  <img src="https://render.githubusercontent.com/render/math?math=G_{i}">   is the subgraph consisting immediate neighbors of  <img src="https://render.githubusercontent.com/render/math?math=i^{th}">   node, except <img src="https://render.githubusercontent.com/render/math?math=i^{th}"> itself. j & h are all possible pairwise node combinations between subgraph nodes. <img src="https://render.githubusercontent.com/render/math?math=N_{G_i}"> is the node number of subgraph and <img src="https://render.githubusercontent.com/render/math?math=l_{jh}"> is the shortest path distance between nodes i & j.
   
-  Local efficiency is indication for efficiency in information transfer among the immediate neighbors of $i^{th}$ node when $i^{th}$ node is removed. 
+  Local efficiency is indication for efficiency in information transfer among the immediate neighbors of <img src="https://render.githubusercontent.com/render/math?math=i^{th}"> node when <img src="https://render.githubusercontent.com/render/math?math=i^{th}"> node is removed. 
   
   High local efficiency of a node suggests densely sharing information within existing communities. The more nodes with high local efficiency the more tendency to segregated information processing in network. [1]
 
@@ -160,7 +160,7 @@ plt.show()
 <img src="https://render.githubusercontent.com/render/math?math=C_{i} = \dfrac{2t_i}{k_i(k_i - 1)} \quad (C_{i} = 0 \quad for \quad k_i<2)">
 
   
-  where $k_i$ is the degree of node i and $t_i=\sum_{j,k}A_{ij}A_{jk}A_{ki}$ is the number of closed triangles around node i. This is ratio of connected pairwise neighbors to potential (maximum) number of i’s neighbors pairs. In other words, the fraction between triangles around a node to degree of the node is named as the clustering coefficient.
+  where <img src="https://render.githubusercontent.com/render/math?math=k_i"> is the degree of node i and <img src="https://render.githubusercontent.com/render/math?math=t_i=\sum_{j,k}A_{ij}A_{jk}A_{ki}"> is the number of closed triangles around node i. This is ratio of connected pairwise neighbors to potential (maximum) number of i’s neighbors pairs. In other words, the fraction between triangles around a node to degree of the node is named as the clustering coefficient.
   
 ![ClusteringCoeff2](https://user-images.githubusercontent.com/23126077/156059811-76218e6e-e6b1-408a-ba88-ed454921d1c4.png)
 
@@ -260,8 +260,7 @@ plt.show()
 ## 3.
 
 The clustering coefficient is related with the direct connections between the immideate neighbors of a node. However, both indirect paths (pathway between i & j node with multiple hops) and direct connections are considered by local efficiency. This can be seen from the mathematical representations of both properties. In both equations the normalizing factor (denominator) is the number possible connections between the neighbors of node i. The numerator is the reciprocal of shortest path length between all the neighbors for local efficiency, and the number of triads in the neighbors for clustering coefficient.
-
-$N_{G_i} = k_i = $ degree of node *i*.
+<img src="https://render.githubusercontent.com/render/math?math=N_{G_i} = k_i = "> degree of node *i*.
   
   In this way, local efficiency can be considered a generalization of the clustering coefficient that explicitly takes into account paths.
   
