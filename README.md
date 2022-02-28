@@ -5,8 +5,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 ```
 
-## Group ID: 1
-
 - Harun Uz
 - Zeynep Betül Arslanbenzer
 - Hızır Can Bayram
