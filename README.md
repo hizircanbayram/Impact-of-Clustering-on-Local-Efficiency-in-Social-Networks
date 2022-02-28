@@ -143,7 +143,9 @@ plt.show()
 
 ## 1.
 
-##### Local Efficiency: $$E_{loc(i)} = \dfrac{1}{N_{G_i}(N_{G_i} - 1)}\sum_{j,h \in G{i}}\dfrac{1}{l_{jh}} $$
+##### Local Efficiency: 
+<img src="https://render.githubusercontent.com/render/math?math=E_{loc(i)} = \dfrac{1}{N_{G_i}(N_{G_i} - 1)}\sum_{j,h \in G{i}}\dfrac{1}{l_{jh}}">
+
    
    
    where $G_{i}$ is the subgraph consisting immediate neighbors of $i^{th}$ node, except $i^{th}$ itself. j & h are all possible pairwise node combinations between subgraph nodes. $N_{G_i}$ is the node number of subgraph and $l_{jh}$ is the shortest path distance between nodes i & j.
@@ -154,7 +156,9 @@ plt.show()
 
   The local efficiency is approximate estimate for integration between nodes and their immediate neighbors (node & neighbourhood information transfer) through entire network. Stated in other words, average local efficiency provide an indicative metric about resiliency towards fault by representing efficiency in continuity of information transfer between the neighbors of a node when the node is disrupted. 
   
-##### Clustering Coefficient: $$ C_{i} = \dfrac{2t_i}{k_i(k_i - 1)} \quad (C_{i} = 0 \quad for \quad k_i<2 )$$
+##### Clustering Coefficient:  
+<img src="https://render.githubusercontent.com/render/math?math=C_{i} = \dfrac{2t_i}{k_i(k_i - 1)} \quad (C_{i} = 0 \quad for \quad k_i<2)">
+
   
   where $k_i$ is the degree of node i and $t_i=\sum_{j,k}A_{ij}A_{jk}A_{ki}$ is the number of closed triangles around node i. This is ratio of connected pairwise neighbors to potential (maximum) number of i’s neighbors pairs. In other words, the fraction between triangles around a node to degree of the node is named as the clustering coefficient.
   
@@ -266,17 +270,17 @@ $N_{G_i} = k_i = $ degree of node *i*.
 ![gkarate](https://user-images.githubusercontent.com/23126077/156060095-00aa8504-0777-44b1-82f6-98f42e2813e6.png)
 
   
-  For the node 4,
+ For the node 4,
 
-Local efficiency:
-$$N_{G_4} = 3$$
-$$\sum_{j,h \in G{i}}\dfrac{1}{l_{jh}} = \frac{1}{1} + \frac{1}{1} + \frac{1}{1} + \frac{1}{1} + \frac{1}{2} + \frac{1}{2}$$
-$$E_{loc(4)} = \dfrac{1}{N_{G_4}(N_{G_4} - 1)}\sum_{j,h \in G{4}}\dfrac{1}{l_{jh}} = 0.83$$
-Clustering coefficient:
-$$k_4 = 3$$
-$$t_4=\sum_{j,k}A_{4j}A_{jk}A_{k4} = 2$$
+Local efficiency: <br>
+<img src="https://render.githubusercontent.com/render/math?math=N_{G_4} = 3"> <br>
+<img src="https://render.githubusercontent.com/render/math?math=\sum_{j,h \in G{i}}\dfrac{1}{l_{jh}} = \frac{1}{1} + \frac{1}{1} + \frac{1}{1} + \frac{1}{1} + \frac{1}{2} + \frac{1}{2}"> <br>
+<img src="https://render.githubusercontent.com/render/math?math=E_{loc(4)} = \dfrac{1}{N_{G_4}(N_{G_4} - 1)}\sum_{j,h \in G{4}}\dfrac{1}{l_{jh}} = 0.83"> <br>
+Clustering coefficient: <br>
+<img src="https://render.githubusercontent.com/render/math?math=k_4 = 3"> <br>
+<img src="https://render.githubusercontent.com/render/math?math=t_4=\sum_{j,k}A_{4j}A_{jk}A_{k4} = 2"> <br>
+<img src="https://render.githubusercontent.com/render/math?math=C_{4} = \dfrac{2t_4}{k_4(k_4 - 1)} = \frac{2}{3} = 0.66"> <br>
 
-$$C_{4} = \dfrac{2t_4}{k_4(k_4 - 1)} = \frac{2}{3} = 0.66$$
 
 # III.
 
